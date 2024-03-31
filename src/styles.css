@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  justify-content: center;
+  gap: 0%;
+}
+.countryCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  padding: 40px;
+}
+img {
+  background-position: center;
+  width: 100px;
+  height: 100px;
+}
+
+input {
+  width: 400px;
+  height: 30px;
+  margin-top: 20px;
+  margin-left: 35%;
+}
+
+.loader {
+  margin-left: 50%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  /* background-color: burlywood; */
+}
